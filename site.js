@@ -9,7 +9,7 @@ const validSections = new Set(["about", "publications", "teaching"]);
 function setTheme(night) {
   site.classList.toggle("night", night);
   site.classList.toggle("forest", !night);
-  photo.src = "assets/wenyi-profile.jpeg";
+  photo.src = night ? "https://raw.githubusercontent.com/shermanlian/shermanlian.github.io/ec09fc58397d9530809941b1a3de5ba3b03abffe/assets/wenyi-night.jpeg" : "assets/wenyi-profile.jpeg";
   toggle.setAttribute("aria-label", night ? "Enter the forest theme" : "Enter the night theme");
   toggle.title = night ? "Enter the forest" : "Enter the night";
   themeColor.content = night ? "#050713" : "#f4f8f3";
