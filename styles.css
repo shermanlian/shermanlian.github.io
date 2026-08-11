@@ -37,10 +37,10 @@ a { color: inherit; }
   --surface-solid: rgba(10, 17, 39, .9);
   --text: #eefbff;
   --muted: #9cb4ce;
-  --accent: #c98cff;
-  --accent-deep: #e1b6ff;
-  --accent-soft: #2a1a55;
-  --line: rgba(201, 140, 255, .22);
+  --accent: #61e3ff;
+  --accent-deep: #8deaff;
+  --accent-soft: #172a55;
+  --line: rgba(97, 227, 255, .2);
 }
 
 .topbar {
